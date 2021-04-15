@@ -196,3 +196,486 @@ es una pagina creada para tu deleite
     </ script >
 </ cuerpo >
 </ html > 
+* {
+    margen :  0 ;
+    acolchado :  0 ;
+    de caja de tamaño : frontera-box;
+}
+cuerpo {
+    fondo :  # EDEDED ;
+    familia de fuentes : Arial , Helvetica , sans-serif;
+}
+un {
+    decoración de texto : nome;
+}
+
+. contenedor {
+    margen : automático;
+    ancho :  90 % ;
+    ancho máximo :  1200 px ;
+
+}
+ artículo principal {
+  fondo :  # fff ;
+    margen :  20 px  0 ;
+    relleno :  20 px ;
+    altura :  1000 px ;
+}
+
+/ * enlaces nav * /
+
+. menu {
+    fondo :  rgb ( 66 ,  11 ,  117 );
+    relleno :  5 px  0 ;
+    margen inferior :  20 px ;
+}
+. menú . contenedor-botones-menu {
+    / * pantalla: flex; * /
+    justificar-contenido : espacio-entre;
+    pantalla : ninguna;
+}
+. menú . botón contenedor-botones-menu  {
+    tamaño de fuente :  20 px ;
+    color :  # fff ;
+    relleno :  10 px  20 px ;
+    borde :  1 px sólido transparente;
+    cursor : puntero;
+    fondo : ninguno;
+    pantalla : bloque en línea;
+}
+. menú . botón contenedor-botones-menu  : hover {
+    borde :  rgba sólido de 1 px ( 255 , 255 , 255 , .4 ); 
+}
+. menú . contenedor-botones-menu . btn-menu-cerrar {
+   pantalla : ninguna;
+    color :  # 000 ;
+}
+. menú . contenedor-botones-menu . btn-menu-cerrar . activo {
+    pantalla : bloque en línea;
+    color :  # 000 ;
+}
+
+. menú . contenedor-enlaces-nav {
+    pantalla : flex;
+    justificar-contenido : espacio-entre;
+    alinear-elementos : centro;
+    relleno :  0  20 px ;
+}
+
+. menú . btn-departamentos {
+    color :  # fff ;
+    relleno :  7 px ;
+    radio del borde :  3 px ;
+    pantalla : flex;
+    alinear-elementos : flex-end;
+    borde :  1 px sólido transparente;
+    tamaño de fuente :  12 px ;
+    cursor : predeterminado;
+}
+. menú . btn-departamentos  i {
+    margen izquierdo :  20 px ;
+    posición : relativa;
+    abajo :  3 px ;
+    transformar :  rotar ( 90 grados );
+}
+. menú . btn-departamentos : hover {
+    borde :  rgba sólido de 1 px ( 255 , 255 , 255 , .4 ); 
+}
+. menú . btn-departamentos  span {
+    pantalla : bloque;
+    tamaño de fuente :  14 px ;
+    font-weight : negrita;
+}
+. hijo  li  a  img {
+    color :   # ccc ;
+    borde :  1 px sólido transparente;
+    relleno :  7 px ;
+    radio del borde :  3 px ;
+    tamaño de fuente :  14 px ;
+    decoración de texto : ninguna;
+    ancho :  50 px ;
+    pantalla : ninguna;
+}
+
+. menú . btn-departamentos-n {
+    color :  # fff ;
+    relleno :  7 px ;
+    radio del borde :  3 px ;
+    pantalla : flex;
+    alinear-elementos : flex-end;
+    borde :  1 px sólido transparente;
+    tamaño de fuente :  18 px ;
+    cursor : puntero;
+}
+. menú . btn-departamentos-n : hover {
+    borde :  1 px sólido # ccc ;
+}
+. padre , . hijo {
+    decoración de texto : ninguna;
+    estilo de lista : ninguno;
+}
+
+. padre  li : desplazarse  >   . hijo  li   img {
+     pantalla : bloque en línea;
+    
+}  
+
+
+
+
+
+
+
+
+/ * la cuadrícula * /
+
+. contenedor-grid {
+    posición : relativa;
+}
+
+. cuadrícula {
+    ancho :  100 % ;
+    pantalla : ninguna;
+    posición : absoluta;
+    arriba :  5 px ;
+    índice z :  1000 ;
+    columnas de plantilla de cuadrícula :  repetir ( 4 ,  1 fr );
+    rejilla-plantilla-filas :  1 fr ;
+    grid-template-areas :  "categorias subcategorias subcategorias subcategorias" ;
+}
+. cuadrícula . activo {
+    pantalla : cuadrícula;
+}
+
+. grid :: before {
+    contenido :  "" ;
+    pantalla : bloque;
+    fondo : transparente;
+    borde izquierdo :  transparente sólido de 5 px ;
+    borde derecho :  transparente sólido de 5 px ;
+    borde inferior :  5 px sólido # fff ;
+    posición : absoluta;
+    superior :  -5 px ;
+    izquierda :  65 px ;
+}
+/ * categorias * /
+
+
+. cuadrícula  >  div {
+    fondo :  # fff ;
+    caja-sombra :  0 px  3 px  6 px  rgba ( 0 , 0 , 0 ,  .10 );
+}
+. cuadrícula . btn-regresar {
+    fondo :  # 232f3e ;
+    color :  # fff ;
+    borde : ninguno;
+    relleno :  10 px ;
+    radio del borde :  3 px ;
+    margen :  20 px ;
+    tamaño de fuente :  16 px ;
+    cursor : puntero;
+   pantalla : ninguna;
+}
+. cuadrícula . categorias {
+    área de cuadrícula : automático;
+    padding-top :  10 px ;
+    altura mínima :  300 px ;
+}
+
+. cuadrícula . categorias . subtítulo {
+    pantalla : ninguna;
+}
+. cuadrícula . categorias  a {
+    color : # 000 ;
+    tamaño de fuente :  14 px ;
+    pantalla : flex;
+    justificar-contenido : espacio-entre;
+    relleno :  10 px  20 px ;
+}
+un {
+    decoración de texto : ninguna;
+   
+    
+    
+}
+. cuadrícula . categorias  a  i {
+    pantalla : ninguna;
+}
+
+. cuadrícula . categorias  a : hover {
+    color : azul violeta;
+    font-weight : negrita;
+}
+. cuadrícula . categorias  a : hover  i {
+    pantalla : bloque en línea;
+}
+
+. cuadrícula . contenedor-subcategorias {
+    área de cuadrícula : subcategorías;
+}
+
+. cuadrícula . subcategorias {
+    pantalla : ninguna;
+    columnas de plantilla de cuadrícula :  1 fr  1 fr  1 fr ;
+    rejilla-plantilla-filas :  1 fr ;
+    altura :  100 % ;
+}
+. cuadrícula . subcategorías . activo {
+    pantalla : cuadrícula;
+}
+. cuadrícula . subcategorias  img {
+    ancho :  100 % ;
+    altura : 100 % ;
+    objeto de ajuste : cubierta;
+    alineación vertical : superior;
+}
+. cuadrícula . enlaces-subcategorias {
+    padding-top :  10 px ;
+    altura :  100 % ;
+    altura máxima :  300 px ;
+    desbordamiento : automático;
+     }
+    
+    
+    . cuadrícula . enlaces-subcategorías  a {
+    color :  # 000 ;
+    tamaño de fuente :  15 px ;
+    relleno :  10 px  20 px ;
+    pantalla : bloque;
+}
+. cuadrícula . enlaces-subcategorías  a : hover {
+    color : azul violeta;
+}
+. cuadrícula . subtítulo {
+    tamaño de fuente :  20 px ;
+    font-weight : normal;
+    color : azul violeta;
+    relleno :  10 px  20 px ;
+}
+. cuadrícula . banner-subcategoria  a {
+    pantalla : bloque;
+    altura :  100 % ;
+}
+. cuadrícula . galeria-subcategorias {
+    pantalla : inline-flex;
+    envoltura flexible : envoltura;
+    alinear-contenido : flex-start;
+}
+. cuadrícula . banner-subcategoria  a {
+    pantalla : bloque;
+    altura :  100 % ;
+}
+
+
+. cuadrícula . galeria-subcategorias  a {
+    ancho :  50 % ;
+    altura :  50 % ;
+}
+
+
+/ * MEDIAQUERY * /
+
+@media pantalla y ( ancho máximo :  1000 px ) {
+    . menú . contenedor-enlaces-nav {
+        acolchado :  0 20 px ;
+    }
+    . menú . contenedor {
+        ancho : 90 % ;
+    }
+}
+@media pantalla y ( ancho máximo :  700 px ) {
+   . menú . contenedor {
+    ancho :  90 % ;
+   }
+
+
+
+
+. menú . contenedor-botones-menu {
+    monitor: flex;
+}
+
+. menú . contenedor-enlaces-nav {
+    relleno :  20 px ;
+    dirección flexible : columna;
+    alinear-elementos : flex-start;
+    justificar-contenido : flex-start;
+    posición : fija;
+    izquierda :  0 ;
+    altura :  100 vh ;
+    fondo :  # 232f3f ;
+    ancho :  70 % ;
+    índice z :  2000 ;
+    transición :  .3 s facilitar todo;
+   transformar :  traducir ( -100 % );
+}
+. menú . contenedor-enlaces-nav . activo {
+   transformar :  traducir ( 0 % );
+}
+
+. menú . btn-departamentos {
+    ancho :  100 % ;
+    alinear-elementos : centro;
+    justificar-contenido : espacio-entre;
+    cursor : puntero;
+}
+. menú . btn-departamentos  i {
+    posición : estática;
+    margen izquierdo :  20 px ;
+    transformar :  rotar ( -180 grados );
+}
+. menú . enlaces {
+    ancho :  100 % ;
+}
+. menú . enlaces  a {
+    pantalla : bloque;
+    margen :  10 px  0 ;
+    relleno :  10 px ;
+}
+. cuadrícula {
+     pantalla : cuadrícula;
+     transición :  .3 s facilitar todo;
+     transformar :  translateX ( -100 % );
+     índice z :  3000 ;
+     ancho :  100 % ;
+     posición : fija;
+     arriba :  0 ;
+     izquierda :  0 ;
+     altura :  100 vh ;
+     áreas de plantilla de cuadrícula :  "categorias categorias categorias categorias" ;
+ }
+. cuadrícula . activo {
+    transformar :  translateX ( 0 );
+}
+. grid :: before {
+    pantalla : ninguna;
+}
+
+. cuadrícula . btn-regresar {
+    pantalla : bloque en línea;
+}
+
+. cuadrícula . categorias . subtítulo {
+    pantalla : bloque;
+}
+. menú . contenedor-botones-menu . btn-menu-cerrar . activo {
+    pantalla : bloque en línea;
+}
+. cuadrícula . contenedor-subcategorias {
+     posición : absoluta;
+     arriba :  0 ;
+     ancho :  90 % ;
+     altura :  100 % ;
+    transformar :  traducir ( -100 % );
+     transición :  .3 s facilitar todo;
+     desbordamiento : automático;
+ }
+
+. cuadrícula . contenedor-subcategorías . activo {
+     transformar :  traducir ( 0 );
+ }
+  . cuadrícula . contenedor-subcategorías . subcategorias {
+      columnas de plantilla de cuadrícula :  1 fr ;
+
+  }
+  . cuadrícula . contenedor-subcategorías . banner-subcategoria {
+      ancho :  100 % ;
+      altura mínima :  250 px ;
+      altura máxima :  350 px ;
+  }
+  . cuadrícula . contenedor-subcategorías . enlaces-subcategorias {
+      altura mínima :  50 vh ;
+      desbordamiento : automático;
+  }
+
+  . cuadrícula . contenedor-subcategorías . galeria-subcategorias {
+      ancho :  100 % ;
+      altura :  100 % ;
+  }
+
+ 
+
+}
+// variables //
+
+const  btnDepartamentos  =  documento . getElementById ( 'btn-departamentos' ) ,
+       btnCerrarMenu  =  documento . getElementById ( '.btn-menu-cerrar' ) ,
+        cuadrícula  =  documento . getElementById ( 'cuadrícula' ) ,
+        contenedorEnlacesNav  =  documento . querySelector ( '#menu .contenedor-enlaces-nav' ) ,
+        contenedorSubCategorias  =  documento . querySelector ( '#grid .contenedor-subcategorias' ) ,
+        esDispositivoMovil  =  ( )  =>  ventana . innerWidth  <=  700 ;
+
+ btnDepartamentos . addEventListener ( 'mouseover' ,  ( )  =>  {
+         if  ( ! esDispositivoMovil ( ) ) {
+                cuadrícula . classList . agregar ( 'activo' ) ;
+         }
+        
+ } ) ;  
+ 
+ cuadrícula . addEventListener ( 'mouseleave' , ( )  =>  {
+         if  ( ! esDispositivoMovil ( ) ) {
+                cuadrícula . classList . eliminar ( 'activo' ) ;
+         }
+ } )
+
+ documento . querySelectorAll ( '#menu .categorias a' ) . forEach ( ( elemento )  =>  {
+        elemento . addEventListener ( 'mouseenter' , ( e )  =>  { 
+                if ( ! esDispositivoMovil  ( ) ) {
+                        documento . querySelectorAll ( '#menu .subcategorias' ) . forEach ( ( categoria )  =>  {
+                                categoria . classList . eliminar ( 'activo' ) ;
+                                if ( categoria . dataset . categoria  ==  e . target . dataset . categoria ) {
+                                        categoria . classList . agregar ( 'activo' ) ;
+                                }
+                      } ) ;
+                
+                } ;
+        } ) ;
+ } ) ;
+
+ documento . querySelector ( '# btn-menu-barras' ) . addEventListener ( 'clic' , ( e )  =>  {
+         e . preventDefault ( ) ;
+         si ( contenedorEnlacesNav . classList . contiene ( 'activo' ) ) {
+                contenedorEnlacesNav . classList . eliminar ( 'activo' ) ;  
+         } más {
+                contenedorEnlacesNav . classList . agregar ( 'activo' ) ; 
+         }
+ } ) ;
+
+ // haga clic en //
+
+ btnDepartamentos . addEventListener ( 'clic' , ( e )  =>  {
+        e . preventDefault ( ) ;
+        cuadrícula . classList . agregar ( 'activo' ) ;
+        
+} ) ;
+documento . querySelector ( '#grid .categorias .btn-regresar' ) . addEventListener ( 'clic' ,  ( e )  =>  { 
+        e . preventDefault ( ) ;
+        cuadrícula . classList . eliminar ( 'activo' ) ;
+       
+} ) ;
+
+documento . querySelectorAll ( '#menu .categorias a' ) . forEach ( ( elemento )  =>  {
+        elemento . addEventListener ( 'clic' ,  ( e )  =>  {
+                if ( esDispositivoMovil ( ) ) {
+                        contenedorSubCategorias . classList . agregar ( 'activo' ) ;
+                        documento . querySelectorAll ( '#menu .subcategorias' ) . forEach ( ( categoria )  =>  {
+                                categoria . classList . eliminar ( 'activo' ) ;
+                                if ( categoria . dataset . categoria  ==  e . target . dataset . categoria ) {
+                                        categoria . classList . agregar ( 'activo' ) ;
+                                }
+                        } ) ;
+                }
+        } ) ;
+} ) ;
+
+
+documento . querySelectorAll ( '#grid .contenedor-subcategorias .btn-regresar' ) . forEach ( ( boton )  =>  {
+        boton . addEventListener ( 'clic' ,  ( e )  =>  { 
+                e . preventDefault ( ) ;
+                contenedorSubCategorias . classList . eliminar ( 'activo' ) ;
+                
+} ) ;
+ documento . querySelector ( 'cuerpo' ) . estilo . desbordamiento  =  'visible' ;
+
+
+} ) ;
